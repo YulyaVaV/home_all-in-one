@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/home_all-in-one/static/css/main.4a1f153c.css",
+    "main.js": "/home_all-in-one/static/js/main.5070b4b1.js",
+    "static/media/unsplash.png": "/home_all-in-one/static/media/unsplash.13d4e05437bdff784bea.png",
+    "static/media/bed.png": "/home_all-in-one/static/media/bed.41ad3008f418010a0964.png",
+    "static/media/flat.png": "/home_all-in-one/static/media/flat.28fd398393bd8f42a57f.png",
+    "static/media/rent.svg": "/home_all-in-one/static/media/rent.6b95acb50ec3324de16e6581ccb20329.svg",
+    "static/media/flats.svg": "/home_all-in-one/static/media/flats.ff9335394ec6e345b6ea53102fd11f43.svg",
+    "static/media/no-photo-svg.svg": "/home_all-in-one/static/media/no-photo-svg.dcafe7fcd541b32bb68bd748bbe95bcc.svg",
+    "static/media/mortgage.svg": "/home_all-in-one/static/media/mortgage.f4f32efeb766c9e60898889aacf7986a.svg",
+    "static/media/logo.svg": "/home_all-in-one/static/media/logo.95ac69719289b06824d8603bf3ea433b.svg",
+    "static/media/map.svg": "/home_all-in-one/static/media/map.b2c76a0a6c64f495e12237bfe6722449.svg",
+    "static/media/stack.svg": "/home_all-in-one/static/media/stack.300453ce9170ba53f8bdaa6dc64b795e.svg",
+    "static/media/like.svg": "/home_all-in-one/static/media/like.797dae89777180b6d1466a1f642435ea.svg",
+    "static/media/houses.svg": "/home_all-in-one/static/media/houses.047a2e50a2e70ebb292e8655fc1c49ba.svg",
+    "static/media/search-gray.svg": "/home_all-in-one/static/media/search-gray.27f725d366d158c3a43b98756c571671.svg",
+    "static/media/search-white.svg": "/home_all-in-one/static/media/search-white.d3381efcfcb883a2f513eca5e43db958.svg",
+    "static/media/house.svg": "/home_all-in-one/static/media/house.41dff2a34000600c29d748d6b40d7cd1.svg",
+    "static/media/bell.svg": "/home_all-in-one/static/media/bell.5184549c6acf879895c5a91598af8d50.svg",
+    "static/media/arrow-bottom.svg": "/home_all-in-one/static/media/arrow-bottom.a018ee48c36c0def8ab7dadfc0e60dd5.svg",
+    "index.html": "/home_all-in-one/index.html",
+    "static/media/message.svg": "/home_all-in-one/static/media/message.259c78d7c6dcac50e8c271bedcdcaed8.svg",
+    "static/media/carbon_add-alt.svg": "/home_all-in-one/static/media/carbon_add-alt.5c07e9d1be59ccc0cfa5f03c5afc9c5d.svg",
+    "static/media/burger.svg": "/home_all-in-one/static/media/burger.f67bdbefee294783c701a038037f6dd4.svg",
+    "main.4a1f153c.css.map": "/home_all-in-one/static/css/main.4a1f153c.css.map",
+    "main.5070b4b1.js.map": "/home_all-in-one/static/js/main.5070b4b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a1f153c.css",
+    "static/js/main.5070b4b1.js"
+  ]
+}
