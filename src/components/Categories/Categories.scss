@@ -1,0 +1,21 @@
+@import '../utils/mixins.scss';
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 112px 50px;
+  gap: 20px;
+
+  @include onDesktop {
+    padding: 24px 95px 50px;
+  }
+  
+  @include onTablet {
+    gap: 12px;
+    padding: 26px 16px;
+  }
+
+  @include onPhone {
+    padding: 16px 16px 26px;
+  }
+}

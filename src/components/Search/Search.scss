@@ -1,0 +1,90 @@
+@import '../utils/mixins.scss';
+@import '../utils/vars.scss';
+
+.search {
+  padding: 28px 112px;
+  background: $backgroundWhite;
+  display: flex;
+  width: 100%;
+
+  @include onDesktop {
+    padding: 28px 95px;
+  }
+
+  @include onTablet {
+    display: none;
+  }
+
+  &__input {
+    border: 1px solid $border;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 18px 18px 18px 56px;
+    outline: none;
+    width: 100%;
+
+    &::placeholder {
+      font-style: normal;
+      font-weight: 200;
+      font-size: 14px;
+      color: $textColor;
+    }
+  }
+
+  &__select {
+    max-width: 240px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 17.2px 20px 18px 16px;
+    border-top: 1px solid $border;
+    border-bottom: 1px solid $border;
+    display: flex;
+    align-items: center;
+    background-color: $white;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  &__category {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: $mainBlack;
+  }
+
+  &__button {
+    text-decoration: none;
+    background: $blueColor;
+    border-radius: 0px 4px 4px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: $white;
+    padding: 17.3px 30px 18px;
+  }
+
+  &__arrow {
+    width: 13px;
+    height: 5px;
+  }
+
+  &__wrapp {
+    position: relative;
+    width: 100%;
+  }
+
+  &__glass {
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    left: 2.5%;
+    top: 30%;
+
+    @include onDesktop {
+      left: 4%;
+    }
+  }
+}

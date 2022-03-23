@@ -1,0 +1,80 @@
+@import '../utils/mixins.scss';
+@import '../utils/vars.scss';
+
+.footer {
+  background: $backgroundWhite;
+  padding: 23px 112px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid $border;
+  gap: 20px;
+
+  @include onDesktop {
+    padding: 23px 75px 20px;
+  }
+
+  @include onTablet {
+    display: none;
+  }
+  
+  &__link {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+
+    @include onDesktop {
+      gap: 16px;
+    }
+  }
+
+  &__line {
+    margin: 0;
+    height: 1px;
+    width: 100%;
+    border: none;
+    background: $border;
+    margin-bottom: 20px;
+  }
+
+  &__link-item {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: $mainBlack;
+    text-decoration: none;
+  }
+
+  &__link-bold {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: $mainBlack;
+    text-decoration: none;
+  }
+
+  &__bottom {
+    display: flex;
+    gap: 4px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: $mainBlack;
+    white-space: nowrap;
+  }
+
+  &__wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  &__offer {
+    color: $mainBlack;
+  }
+
+  &__policy {
+    color: $mainBlack;
+  }
+}

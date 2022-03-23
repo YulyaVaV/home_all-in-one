@@ -1,0 +1,192 @@
+@import '../utils/mixins.scss';
+@import '../utils/vars.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 24px 11px;
+  border-bottom: 1px solid $border;
+
+  @include onDesktop {
+    gap: 20px;
+  }
+
+  @include onPhone {
+    padding: 15px 20px 5px;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 32px;
+
+    @include onDesktop {
+      gap: 16px;
+    }
+
+    @include onTablet {
+      display: none;
+    }
+  }
+
+  &__burger {
+    display: none;
+
+    @include onTablet {
+      width: 17px;
+      height: 15px;
+      display: block;
+      cursor: pointer;
+    }
+  }
+
+  &__block {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    @include onDesktop {
+      gap: 16px;
+    }
+
+    @include onTablet {
+      gap: 0;
+    }
+  }
+
+  &__svg {
+    width: 21px;
+    height: 21px;
+  }
+
+  &__person-img {
+    width: 48px;
+    height: 48px;
+
+    @include onTablet {
+      width: 38px;
+      height: 38px;
+    }
+  }
+
+  &__wrapp {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+
+    @include onDesktop {
+      gap: 20px;
+    }
+  }
+
+  &__notif {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+
+    @include onDesktop {
+      gap: 16px;
+    }
+  }
+
+  &__add {
+    width: 24px;
+    height: 23px;
+    cursor: pointer;
+
+    @include onTablet {
+      display: none;
+    }
+  }
+
+  &__bell {
+    width: 17px;
+    height: 22px;
+    cursor: pointer;
+  }
+
+  &__like {
+    width: 22px;
+    height: 21px;
+    cursor: pointer;
+
+    @include onTablet {
+      display: none;
+    }
+  }
+
+  &__profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__profile-person {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    @include onDesktop {
+      display: none;
+    }
+  }
+
+  &__profile-name {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $mainBlack;
+    text-decoration: none;
+  }
+
+  &__profile-position {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: $textColor;
+  }
+
+  &__search {
+    display: none;
+
+    @include onTablet {
+      width: 100%;
+      display: flex;
+    }
+  }
+
+  &__input {
+    border: 1px solid $border;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 12px 0 11px 16px;
+    outline: none;
+    width: 100%;
+
+    &::placeholder {
+      font-style: normal;
+      font-weight: 200;
+      font-size: 14px;
+      color: $textColor;
+    }
+  }
+
+  &__button-search {
+    position: relative;
+    background: $blueColor;
+    border-radius: 0px 4px 4px 0px;
+    padding: 20px;
+    outline: none;
+    border: none;
+  }
+
+  &__search-white {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    bottom: 10px;
+  }
+}

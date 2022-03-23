@@ -1,0 +1,12 @@
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-slide {
+  flex-shrink: 1 !important;
+  width: 100% !important;
+}
